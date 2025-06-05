@@ -1,0 +1,121 @@
+cd E:\ARevIN-main
+
+<!-- Linear -->
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --use_gpu --use_amp
+
+<!-- Linear --> --rev
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --rev --use_gpu --use_amp
+
+<!-- Linear --> --arev --arev_mode type0 --arev_param [0.5, 0.5]
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --individual --model Linear --arev --arev_mode type0 --use_gpu --use_amp
+
+<!-- TSMixer -->
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --use_gpu --use_amp
+
+<!-- TSMixer --> --rev
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --rev --use_gpu --use_amp
+
+<!-- TSMixer --> --arev --arev_mode type0 --arev_param [0.5, 0.5]
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --e_layers 2 --model TSMixer --arev --arev_mode type0 --use_gpu --use_amp
+
+<!-- PatchTST -->
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --use_gpu --use_amp
+
+<!-- PatchTST --> --rev
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --rev --use_gpu --use_amp
+
+<!-- PatchTST --> --arev --arev_mode type0 --arev_param [0.5, 0.5]
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 16 --d_ff 128 --e_layers 2 --n_heads 4 --model PatchTST --arev --arev_mode type0 --use_gpu --use_amp
+
+<!-- SCINet -->
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --use_gpu --use_amp
+
+<!-- SCINet --> --rev
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --rev --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --rev --use_gpu --use_amp
+
+<!-- SCINet --> --arev --arev_mode type0 --arev_param [0.5, 0.5]
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 96 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 192 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 336 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --arev --arev_mode type0 --use_gpu --use_amp
+
+python -u run.py --is_training 1 --data ETTm1 --data_path ETTm1.csv --features M --seq_len 96 --pred_len 720 --enc_in 7 --dec_in 7 --c_out 7 --itr 1 --train_epochs 6 --batch_size 32 --learning_rate 0.005 --d_model 128 --dropout 0.5 --model SCINet --arev --arev_mode type0 --use_gpu --use_amp

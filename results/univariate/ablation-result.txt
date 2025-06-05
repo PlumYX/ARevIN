@@ -1,0 +1,321 @@
+-----消融试验-----
+
+模型:Linear, Seed:256, 固定arev中的自适应参数.
+
+Linear_Electricity_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.3766525983810425, mae:0.45201683044433594, r_squared:0.6413336396217346
+
+Linear_Electricity_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.3810942471027374, mae:0.455211877822876, r_squared:0.6383442580699921
+
+Linear_Electricity_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.38001441955566406, mae:0.4562251567840576, r_squared:0.640972763299942
+
+Linear_Electricity_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.4203086197376251, mae:0.4880068004131317, r_squared:0.5995452105998993
+
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24183300137519836, mae:0.3191281259059906, r_squared:0.8669962733983994
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20523995161056519, mae:0.28230729699134827, r_squared:0.8874336928129196
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1987292319536209, mae:0.2770009934902191, r_squared:0.8906087726354599
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.22151035070419312, mae:0.298834890127182, r_squared:0.8772623017430305
+
+
+Linear_ETTh1_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.055866967886686325, mae:0.18241573870182037, r_squared:0.5106542706489563
+
+Linear_ETTh1_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0740518718957901, mae:0.2146604061126709, r_squared:0.3266375660896301
+
+Linear_ETTh1_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.08623366057872772, mae:0.23300953209400177, r_squared:0.18394827842712402
+
+Linear_ETTh1_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.08752814680337906, mae:0.2353312373161316, r_squared:0.0468178391456604
+
+
+Linear_ETTh2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.11782965064048767, mae:0.26246464252471924, r_squared:0.6841188371181488
+
+Linear_ETTh2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.16654320061206818, mae:0.3171325623989105, r_squared:0.5451897978782654
+
+Linear_ETTh2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.21301640570163727, mae:0.36731791496276855, r_squared:0.4073864221572876
+
+Linear_ETTh2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.22679826617240906, mae:0.3824240267276764, r_squared:0.27709752321243286
+
+
+Linear_ETTm1_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0291086845099926, mae:0.12717190384864807, r_squared:0.7504207789897919
+
+Linear_ETTm1_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.043400365859270096, mae:0.15852341055870056, r_squared:0.6259779632091522
+
+Linear_ETTm1_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0564209520816803, mae:0.18343821167945862, r_squared:0.5082850456237793
+
+Linear_ETTm1_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0787438452243805, mae:0.21925169229507446, r_squared:0.28605955839157104
+
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06980481743812561, mae:0.19154314696788788, r_squared:0.8153853267431259
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10161621123552322, mae:0.23737500607967377, r_squared:0.7303650081157684
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12997359037399292, mae:0.2742426097393036, r_squared:0.6530037224292755
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17989389598369598, mae:0.3286933898925781, r_squared:0.5098429024219513
+
+
+模型:TSMixer, Seed:256, 固定arev中的自适应参数.
+
+TSMixer_Electricity_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.287105530500412, mae:0.4030624032020569, r_squared:0.7266045808792114
+
+TSMixer_Electricity_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.3190048038959503, mae:0.43071579933166504, r_squared:0.697266697883606
+
+TSMixer_Electricity_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.33477336168289185, mae:0.4411473572254181, r_squared:0.683715283870697
+
+TSMixer_Electricity_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.3696744740009308, mae:0.458502858877182, r_squared:0.6477875709533691
+
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17928753793239594, mae:0.26128527522087097, r_squared:0.9013951346278191
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.16710707545280457, mae:0.2479598969221115, r_squared:0.9083481207489967
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.163358673453331, mae:0.24777883291244507, r_squared:0.9100786224007607
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17940042912960052, mae:0.26396480202674866, r_squared:0.9005951806902885
+
+
+TSMixer_ETTh1_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.05762204900383949, mae:0.18547700345516205, r_squared:0.49528127908706665
+
+TSMixer_ETTh1_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.07431113719940186, mae:0.20994257926940918, r_squared:0.3242800235748291
+
+TSMixer_ETTh1_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.08687224984169006, mae:0.23289072513580322, r_squared:0.1779051423072815
+
+TSMixer_ETTh1_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09630506485700607, mae:0.24420160055160522, r_squared:-0.04876279830932617
+
+
+TSMixer_ETTh2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.13201256096363068, mae:0.2788679599761963, r_squared:0.6460968852043152
+
+TSMixer_ETTh2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17396242916584015, mae:0.32547181844711304, r_squared:0.5249287486076355
+
+TSMixer_ETTh2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20383013784885406, mae:0.3582961857318878, r_squared:0.4329426884651184
+
+TSMixer_ETTh2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20602397620677948, mae:0.3635874092578888, r_squared:0.343313992023468
+
+
+TSMixer_ETTm1_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.02939130738377571, mae:0.12793275713920593, r_squared:0.7479975521564484
+
+TSMixer_ETTm1_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.044526226818561554, mae:0.16016367077827454, r_squared:0.6162753403186798
+
+TSMixer_ETTm1_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0606885626912117, mae:0.1891782283782959, r_squared:0.4710923433303833
+
+TSMixer_ETTm1_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.08537711203098297, mae:0.22530947625637054, r_squared:0.22591829299926758
+
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0657111257314682, mae:0.18693144619464874, r_squared:0.8262120187282562
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10077916830778122, mae:0.23670929670333862, r_squared:0.7325860559940338
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1306508481502533, mae:0.27556055784225464, r_squared:0.651195615530014
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18546538054943085, mae:0.33426007628440857, r_squared:0.4946622848510742
+
+
+模型:PatchTST, Seed:256, 固定arev中的自适应参数.
+
+PatchTST_Electricity_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3693552315235138, mae:0.457558274269104, r_squared:0.648282527923584
+
+PatchTST_Electricity_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.34780165553092957, mae:0.44752636551856995, r_squared:0.6699386835098267
+
+PatchTST_Electricity_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3768865764141083, mae:0.45197853446006775, r_squared:0.6439278721809387
+
+PatchTST_Electricity_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.40863096714019775, mae:0.49224722385406494, r_squared:0.6106712520122528
+
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.249711811542511, mae:0.3575422763824463, r_squared:0.8626630753278732
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.24016958475112915, mae:0.34945711493492126, r_squared:0.8682761192321777
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.24278412759304047, mae:0.3529168665409088, r_squared:0.8663585931062698
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.260633647441864, mae:0.36570218205451965, r_squared:0.8555842936038971
+
+
+PatchTST_ETTh1_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.0576254203915596, mae:0.18476130068302155, r_squared:0.49525177478790283
+
+PatchTST_ETTh1_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.0730898454785347, mae:0.2114836424589157, r_squared:0.33538538217544556
+
+PatchTST_ETTh1_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.0857589840888977, mae:0.23178455233573914, r_squared:0.1884402632713318
+
+PatchTST_ETTh1_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.09647969901561737, mae:0.24551880359649658, r_squared:-0.050664663314819336
+
+
+PatchTST_ETTh2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.13045625388622284, mae:0.2776080369949341, r_squared:0.6502690613269806
+
+PatchTST_ETTh2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.17249418795108795, mae:0.32737818360328674, r_squared:0.528938353061676
+
+PatchTST_ETTh2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.2063605934381485, mae:0.3645128309726715, r_squared:0.42590296268463135
+
+PatchTST_ETTh2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.22399389743804932, mae:0.3816385269165039, r_squared:0.28603625297546387
+
+
+PatchTST_ETTm1_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.02989078126847744, mae:0.12864139676094055, r_squared:0.7437150478363037
+
+PatchTST_ETTm1_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.04553490877151489, mae:0.16231925785541534, r_squared:0.6075825989246368
+
+PatchTST_ETTm1_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.059592779725790024, mae:0.18774665892124176, r_squared:0.4806421995162964
+
+PatchTST_ETTm1_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.08684703707695007, mae:0.2263670265674591, r_squared:0.2125909924507141
+
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.0715874508023262, mae:0.19873064756393433, r_squared:0.8106707483530045
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.09672046452760696, mae:0.23367959260940552, r_squared:0.7433556914329529
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.13204777240753174, mae:0.2782141864299774, r_squared:0.6474661827087402
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.17888538539409637, mae:0.3286622166633606, r_squared:0.5125907957553864
+
+
+模型:SCINet, Seed:256, 固定arev中的自适应参数.
+
+SCINet_Electricity_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2945830821990967, mae:0.3973134756088257, r_squared:0.7194840908050537
+
+SCINet_Electricity_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.3389226794242859, mae:0.43082696199417114, r_squared:0.6783647537231445
+
+SCINet_Electricity_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.3526647388935089, mae:0.440910279750824, r_squared:0.666812002658844
+
+SCINet_Electricity_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.4043757915496826, mae:0.4804723262786865, r_squared:0.6147254109382629
+
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1896258145570755, mae:0.2794637084007263, r_squared:0.8957092687487602
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18702638149261475, mae:0.27528300881385803, r_squared:0.8974231407046318
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18185271322727203, mae:0.2674430310726166, r_squared:0.8998985141515732
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19863970577716827, mae:0.28826603293418884, r_squared:0.8899348005652428
+
+
+SCINet_ETTh1_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.058196693658828735, mae:0.1861974596977234, r_squared:0.490247905254364
+
+SCINet_ETTh1_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.07610698789358139, mae:0.215814009308815, r_squared:0.30795013904571533
+
+SCINet_ETTh1_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.085487499833107, mae:0.23035724461078644, r_squared:0.19100940227508545
+
+SCINet_ETTh1_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10761068761348724, mae:0.25912630558013916, r_squared:-0.17188119888305664
+
+
+SCINet_ETTh2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12529486417770386, mae:0.27125054597854614, r_squared:0.6641058623790741
+
+SCINet_ETTh2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17113548517227173, mae:0.3256022334098816, r_squared:0.5326488018035889
+
+SCINet_ETTh2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19731536507606506, mae:0.35310617089271545, r_squared:0.45106685161590576
+
+SCINet_ETTh2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2085099220275879, mae:0.36695677042007446, r_squared:0.33539026975631714
+
+
+SCINet_ETTm1_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.02981640212237835, mae:0.12954916059970856, r_squared:0.7443527579307556
+
+SCINet_ETTm1_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.045297883450984955, mae:0.16164155304431915, r_squared:0.6096252501010895
+
+SCINet_ETTm1_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.05845111981034279, mae:0.18635225296020508, r_squared:0.4905918836593628
+
+SCINet_ETTm1_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.08678802102804184, mae:0.2277081161737442, r_squared:0.21312612295150757
+
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.066074438393116, mae:0.1857789307832718, r_squared:0.8252511620521545
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10024994611740112, mae:0.2362905740737915, r_squared:0.733990341424942
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12853971123695374, mae:0.2733771800994873, r_squared:0.656831830739975
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1800009161233902, mae:0.3297002613544464, r_squared:0.5095513164997101
+

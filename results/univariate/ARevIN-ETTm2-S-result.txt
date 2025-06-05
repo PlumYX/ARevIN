@@ -1,0 +1,509 @@
+-----Seed:1024-----
+
+------Linear-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.07264628261327744, mae:0.1971132904291153, r_squared:0.8078704327344894
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10415636003017426, mae:0.23924227058887482, r_squared:0.7236247956752777
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.13493278622627258, mae:0.2785350978374481, r_squared:0.6397639513015747
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1929386407136917, mae:0.3371087908744812, r_squared:0.47429990768432617
+
+------Linear(rev)-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0702972561120987, mae:0.19031889736652374, r_squared:0.8140829652547836
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10072058439254761, mae:0.23489873111248016, r_squared:0.732741504907608
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1283433735370636, mae:0.271784245967865, r_squared:0.6573559939861298
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1791541874408722, mae:0.32807084918022156, r_squared:0.5118584036827087
+
+------Linear(arev-type1-0.5-0.5)-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06955409049987793, mae:0.19079311192035675, r_squared:0.8160484284162521
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10251326113939285, mae:0.23893290758132935, r_squared:0.7279846966266632
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1303865909576416, mae:0.2758351266384125, r_squared:0.651901125907898
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18114328384399414, mae:0.330425888299942, r_squared:0.5064387023448944
+
+------TSMixer-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.07006590813398361, mae:0.19243259727954865, r_squared:0.814694806933403
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1146957129240036, mae:0.25533023476600647, r_squared:0.6956590116024017
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1473148763179779, mae:0.29708510637283325, r_squared:0.6067069172859192
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.23252877593040466, mae:0.37890738248825073, r_squared:0.3664286136627197
+
+------TSMixer(rev)-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06541116535663605, mae:0.18186968564987183, r_squared:0.8270053416490555
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09921345859766006, mae:0.23271439969539642, r_squared:0.7367406189441681
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1285519301891327, mae:0.2715001702308655, r_squared:0.6567991971969604
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18193300068378448, mae:0.32976675033569336, r_squared:0.5042869746685028
+
+------TSMixer(arev-type1-0.5-0.5)-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06397876888513565, mae:0.18175029754638672, r_squared:0.830793634057045
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09765341877937317, mae:0.23232276737689972, r_squared:0.7408801317214966
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12849071621894836, mae:0.2729513943195343, r_squared:0.6569626331329346
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17702575027942657, mae:0.32690298557281494, r_squared:0.5176577568054199
+
+------PatchTST-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.16990403831005096, mae:0.3305993676185608, r_squared:0.5506502389907837
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.2079460173845291, mae:0.3644355833530426, r_squared:0.44822263717651367
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.26834115386009216, mae:0.4179667532444, r_squared:0.2835977077484131
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.37137117981910706, mae:0.4997551143169403, r_squared:-0.011875391006469727
+
+------PatchTST(rev)-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.06963927298784256, mae:0.19405174255371094, r_squared:0.8158231526613235
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.10009860247373581, mae:0.23508818447589874, r_squared:0.7343919277191162
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.13308973610401154, mae:0.276766836643219, r_squared:0.6446844041347504
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.18332232534885406, mae:0.33193910121917725, r_squared:0.5005014538764954
+
+------PatchTST(arev-type1-0.5-0.5)-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.06380952149629593, mae:0.1872999370098114, r_squared:0.831241250038147
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.09943032264709473, mae:0.23581427335739136, r_squared:0.7361651659011841
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.12628355622291565, mae:0.2712175250053406, r_squared:0.6628551781177521
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.1777104139328003, mae:0.3283928632736206, r_squared:0.5157922506332397
+
+------SCINet-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.07099811732769012, mae:0.19553989171981812, r_squared:0.8122293800115585
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.11547871679067612, mae:0.2587728798389435, r_squared:0.6935813426971436
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.15676026046276093, mae:0.3056991696357727, r_squared:0.581490159034729
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.25243398547172546, mae:0.39586859941482544, r_squared:0.3121928572654724
+
+------SCINet(rev)-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0670035183429718, mae:0.18437524139881134, r_squared:0.8227940052747726
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10087373107671738, mae:0.23488129675388336, r_squared:0.7323351502418518
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.13294155895709991, mae:0.27808815240859985, r_squared:0.6450800001621246
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1823096126317978, mae:0.3313034772872925, r_squared:0.5032607913017273
+
+------SCINet(arev-type1-0.5-0.5)-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0668010339140892, mae:0.18509790301322937, r_squared:0.823329508304596
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0998101457953453, mae:0.23490358889102936, r_squared:0.7351573407649994
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.13071130216121674, mae:0.27702024579048157, r_squared:0.6510342359542847
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18049971759319305, mae:0.3299616873264313, r_squared:0.508192241191864
+
+-----Seed:512-----
+
+------Linear-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.07151536643505096, mae:0.19437339901924133, r_squared:0.8108613938093185
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10212880373001099, mae:0.23584342002868652, r_squared:0.7290048599243164
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1407906413078308, mae:0.2855794429779053, r_squared:0.6241249740123749
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19084247946739197, mae:0.33494997024536133, r_squared:0.4800112843513489
+
+------Linear(rev)-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06987686455249786, mae:0.19005030393600464, r_squared:0.8151947855949402
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10034080594778061, mae:0.234553262591362, r_squared:0.7337492406368256
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1283015012741089, mae:0.2716677188873291, r_squared:0.657467782497406
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17787708342075348, mae:0.3263561725616455, r_squared:0.515338122844696
+
+------Linear(arev-type1-0.5-0.5)-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06979616731405258, mae:0.19100843369960785, r_squared:0.8154082000255585
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1016395166516304, mae:0.2374851554632187, r_squared:0.730303168296814
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1300337016582489, mae:0.27471479773521423, r_squared:0.6528432369232178
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1806778758764267, mae:0.3295418620109558, r_squared:0.5077067911624908
+
+------TSMixer-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0713835284113884, mae:0.19459927082061768, r_squared:0.8112100660800934
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10289684683084488, mae:0.2389284074306488, r_squared:0.7269668877124786
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.13725464046001434, mae:0.28654778003692627, r_squared:0.6335651874542236
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2181786447763443, mae:0.3666538596153259, r_squared:0.4055284261703491
+
+------TSMixer(rev)-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06562063097953796, mae:0.18230849504470825, r_squared:0.8264513611793518
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09804709255695343, mae:0.23085957765579224, r_squared:0.7398355305194855
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12933039665222168, mae:0.2726038694381714, r_squared:0.6547209024429321
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18229429423809052, mae:0.33018502593040466, r_squared:0.5033025443553925
+
+------TSMixer(arev-type1-0.5-0.5)-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06508173048496246, mae:0.18323306739330292, r_squared:0.8278765976428986
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09769643843173981, mae:0.23239761590957642, r_squared:0.7407659888267517
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12757530808448792, mae:0.27196523547172546, r_squared:0.6594065427780151
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18088224530220032, mae:0.33016061782836914, r_squared:0.5071499645709991
+
+------PatchTST-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.16124068200588226, mae:0.32761380076408386, r_squared:0.5735624432563782
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.25439122319221497, mae:0.41410398483276367, r_squared:0.3249819278717041
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.27348873019218445, mae:0.4265739917755127, r_squared:0.26985496282577515
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3598671853542328, mae:0.4843027889728546, r_squared:0.019469499588012695
+
+------PatchTST(rev)-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.0663958191871643, mae:0.18734630942344666, r_squared:0.8244011998176575
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.1015968769788742, mae:0.23673540353775024, r_squared:0.7304162979125977
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.13460806012153625, mae:0.2795444130897522, r_squared:0.6406308710575104
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.18677178025245667, mae:0.3346552848815918, r_squared:0.49110275506973267
+
+------PatchTST(arev-type1-0.5-0.5)-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.06333328783512115, mae:0.1856856793165207, r_squared:0.8325007557868958
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.09815879911184311, mae:0.23396731913089752, r_squared:0.7395391166210175
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.12855345010757446, mae:0.27232930064201355, r_squared:0.6567951440811157
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.1793217658996582, mae:0.3301934599876404, r_squared:0.5114018023014069
+
+------SCINet-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09652792662382126, mae:0.23628824949264526, r_squared:0.7447099983692169
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12415089458227158, mae:0.26814883947372437, r_squared:0.6705700159072876
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17005330324172974, mae:0.319465696811676, r_squared:0.546001136302948
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2677200734615326, mae:0.4066484272480011, r_squared:0.27054286003112793
+
+------SCINet(rev)-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06713660806417465, mae:0.1848822981119156, r_squared:0.8224420100450516
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0997547134757042, mae:0.23297111690044403, r_squared:0.7353044152259827
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1307537704706192, mae:0.2741268277168274, r_squared:0.6509208381175995
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18194621801376343, mae:0.33045658469200134, r_squared:0.5042509436607361
+
+------SCINet(arev-type1-0.5-0.5)-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06648404896259308, mae:0.1847541779279709, r_squared:0.8241678476333618
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10000200569629669, mae:0.23483754694461823, r_squared:0.7346482276916504
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12997601926326752, mae:0.27463391423225403, r_squared:0.6529972553253174
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18063019216060638, mae:0.33007749915122986, r_squared:0.5078367292881012
+
+-----Seed:256-----
+
+------Linear-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.07151536643505096, mae:0.19437339901924133, r_squared:0.8108613938093185
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10212880373001099, mae:0.23584342002868652, r_squared:0.7290048599243164
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1407906413078308, mae:0.2855794429779053, r_squared:0.6241249740123749
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19084247946739197, mae:0.33494997024536133, r_squared:0.4800112843513489
+
+------Linear(rev)-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06987686455249786, mae:0.19005030393600464, r_squared:0.8151947855949402
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10034080594778061, mae:0.234553262591362, r_squared:0.7337492406368256
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1283015012741089, mae:0.2716677188873291, r_squared:0.657467782497406
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17787708342075348, mae:0.3263561725616455, r_squared:0.515338122844696
+
+------Linear(arev-type1-0.5-0.5)-ETTm2-S------
+
+Linear_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06979616731405258, mae:0.19100843369960785, r_squared:0.8154082000255585
+
+Linear_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1016395166516304, mae:0.2374851554632187, r_squared:0.730303168296814
+
+Linear_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1300337016582489, mae:0.27471479773521423, r_squared:0.6528432369232178
+
+Linear_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1806778758764267, mae:0.3295418620109558, r_squared:0.5077067911624908
+
+------TSMixer-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0713835284113884, mae:0.19459927082061768, r_squared:0.8112100660800934
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10289684683084488, mae:0.2389284074306488, r_squared:0.7269668877124786
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.13725464046001434, mae:0.28654778003692627, r_squared:0.6335651874542236
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2181786447763443, mae:0.3666538596153259, r_squared:0.4055284261703491
+
+------TSMixer(rev)-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06562063097953796, mae:0.18230849504470825, r_squared:0.8264513611793518
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09804709255695343, mae:0.23085957765579224, r_squared:0.7398355305194855
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12933039665222168, mae:0.2726038694381714, r_squared:0.6547209024429321
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18229429423809052, mae:0.33018502593040466, r_squared:0.5033025443553925
+
+------TSMixer(arev-type1-0.5-0.5)-ETTm2-S------
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06508173048496246, mae:0.18323306739330292, r_squared:0.8278765976428986
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09769643843173981, mae:0.23239761590957642, r_squared:0.7407659888267517
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12757530808448792, mae:0.27196523547172546, r_squared:0.6594065427780151
+
+TSMixer_ETTm2_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18088224530220032, mae:0.33016061782836914, r_squared:0.5071499645709991
+
+------PatchTST-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.16124068200588226, mae:0.32761380076408386, r_squared:0.5735624432563782
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.25439122319221497, mae:0.41410398483276367, r_squared:0.3249819278717041
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.27348873019218445, mae:0.4265739917755127, r_squared:0.26985496282577515
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3598671853542328, mae:0.4843027889728546, r_squared:0.019469499588012695
+
+------PatchTST(rev)-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.0663958191871643, mae:0.18734630942344666, r_squared:0.8244011998176575
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.1015968769788742, mae:0.23673540353775024, r_squared:0.7304162979125977
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.13460806012153625, mae:0.2795444130897522, r_squared:0.6406308710575104
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.18677178025245667, mae:0.3346552848815918, r_squared:0.49110275506973267
+
+------PatchTST(arev-type1-0.5-0.5)-ETTm2-S------
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.06333328783512115, mae:0.1856856793165207, r_squared:0.8325007557868958
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.09815879911184311, mae:0.23396731913089752, r_squared:0.7395391166210175
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.12855345010757446, mae:0.27232930064201355, r_squared:0.6567951440811157
+
+PatchTST_ETTm2_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.1793217658996582, mae:0.3301934599876404, r_squared:0.5114018023014069
+
+------SCINet-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.09652792662382126, mae:0.23628824949264526, r_squared:0.7447099983692169
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12415089458227158, mae:0.26814883947372437, r_squared:0.6705700159072876
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17005330324172974, mae:0.319465696811676, r_squared:0.546001136302948
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2677200734615326, mae:0.4066484272480011, r_squared:0.27054286003112793
+
+------SCINet(rev)-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06713660806417465, mae:0.1848822981119156, r_squared:0.8224420100450516
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.0997547134757042, mae:0.23297111690044403, r_squared:0.7353044152259827
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1307537704706192, mae:0.2741268277168274, r_squared:0.6509208381175995
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18194621801376343, mae:0.33045658469200134, r_squared:0.5042509436607361
+
+------SCINet(arev-type1-0.5-0.5)-ETTm2-S------
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.06648404896259308, mae:0.1847541779279709, r_squared:0.8241678476333618
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.10000200569629669, mae:0.23483754694461823, r_squared:0.7346482276916504
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.12997601926326752, mae:0.27463391423225403, r_squared:0.6529972553253174
+
+SCINet_ETTm2_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18063019216060638, mae:0.33007749915122986, r_squared:0.5078367292881012

@@ -1,0 +1,509 @@
+-----Seed:1024-----
+
+------Linear-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.3020898401737213, mae:0.3976958096027374, r_squared:0.8338561207056046
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24971215426921844, mae:0.3368603587150574, r_squared:0.8630423843860626
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24628151953220367, mae:0.3332734704017639, r_squared:0.8644334375858307
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2927054464817047, mae:0.37148338556289673, r_squared:0.8378134816884995
+
+------Linear(rev)-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24334806203842163, mae:0.3184468150138855, r_squared:0.8661630153656006
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20576857030391693, mae:0.2796194553375244, r_squared:0.8871437609195709
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19875428080558777, mae:0.27495795488357544, r_squared:0.890594981610775
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.22146821022033691, mae:0.29657816886901855, r_squared:0.8772856518626213
+
+------Linear(arev-type1-0.1-0.9)-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24195685982704163, mae:0.32000115513801575, r_squared:0.8669281601905823
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20511101186275482, mae:0.28214365243911743, r_squared:0.887504406273365
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19881677627563477, mae:0.2780436873435974, r_squared:0.890560582280159
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2207966148853302, mae:0.29735374450683594, r_squared:0.8776577785611153
+
+------TSMixer-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.216964453458786, mae:0.29641860723495483, r_squared:0.8806735202670097
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18636029958724976, mae:0.26804572343826294, r_squared:0.8977884650230408
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1828477531671524, mae:0.2703951597213745, r_squared:0.8993507847189903
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2238982915878296, mae:0.3106536269187927, r_squared:0.8759391531348228
+
+------TSMixer(rev)-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18079699575901031, mae:0.2599004805088043, r_squared:0.9005649611353874
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.16730539500713348, mae:0.24623307585716248, r_squared:0.9082393497228622
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1622459590435028, mae:0.24489744007587433, r_squared:0.9106911197304726
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18120557069778442, mae:0.26441630721092224, r_squared:0.8995949625968933
+
+------TSMixer(arev-type1-0.1-0.9)-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17914815247058868, mae:0.2579953372478485, r_squared:0.9014717936515808
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1660754233598709, mae:0.24547527730464935, r_squared:0.9089139476418495
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.16236300766468048, mae:0.2462150752544403, r_squared:0.910626694560051
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18011409044265747, mae:0.26439133286476135, r_squared:0.9001997485756874
+
+------PatchTST-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.32492780685424805, mae:0.4079422354698181, r_squared:0.8212956488132477
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3045518398284912, mae:0.38268113136291504, r_squared:0.8329648971557617
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.29486215114593506, mae:0.3740382194519043, r_squared:0.8376920521259308
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3274020254611969, mae:0.4022119343280792, r_squared:0.8185882866382599
+
+------PatchTST(rev)-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.2263997197151184, mae:0.33018654584884644, r_squared:0.8754842951893806
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.21244071424007416, mae:0.3152218759059906, r_squared:0.883484348654747
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.21928073465824127, mae:0.3250318765640259, r_squared:0.8792961239814758
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.2418244332075119, mae:0.3423450291156769, r_squared:0.8660063743591309
+
+------PatchTST(arev-type1-0.1-0.9)-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.23867857456207275, mae:0.3414740264415741, r_squared:0.8687311559915543
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.22419260442256927, mae:0.33044159412384033, r_squared:0.8770388811826706
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.22733893990516663, mae:0.33695629239082336, r_squared:0.8748604506254196
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.2440980225801468, mae:0.340644508600235, r_squared:0.8647465854883194
+
+------SCINet-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2379935383796692, mae:0.3298100531101227, r_squared:0.8691079020500183
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.222837895154953, mae:0.30814021825790405, r_squared:0.8777818903326988
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2355271279811859, mae:0.3243623971939087, r_squared:0.8703532367944717
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.28020456433296204, mae:0.36623528599739075, r_squared:0.8447401523590088
+
+------SCINet(rev)-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18951472640037537, mae:0.27809134125709534, r_squared:0.8957703709602356
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18138213455677032, mae:0.26633718609809875, r_squared:0.9005187973380089
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1894298940896988, mae:0.27778831124305725, r_squared:0.895727626979351
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19495946168899536, mae:0.28408414125442505, r_squared:0.891974002122879
+
+------SCINet(arev-type1-0.1-0.9)-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19255468249320984, mae:0.2840392291545868, r_squared:0.8940984457731247
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18776261806488037, mae:0.2694661319255829, r_squared:0.8970193415880203
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1800004243850708, mae:0.26649948954582214, r_squared:0.900918111205101
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20930209755897522, mae:0.29394325613975525, r_squared:0.884026825428009
+
+-----Seed:512-----
+
+------Linear-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2982368767261505, mae:0.3936653733253479, r_squared:0.835975170135498
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24944305419921875, mae:0.3358173072338104, r_squared:0.8631899654865265
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24728479981422424, mae:0.3344935476779938, r_squared:0.8638811856508255
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.29030463099479675, mae:0.3704521059989929, r_squared:0.8391437530517578
+
+------Linear(rev)-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24221116304397583, mae:0.3168473541736603, r_squared:0.8667882978916168
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.205277681350708, mae:0.2795029878616333, r_squared:0.8874129951000214
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1992957442998886, mae:0.2760992646217346, r_squared:0.8902969285845757
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.22063137590885162, mae:0.29622772336006165, r_squared:0.8777493312954903
+
+------Linear(arev-type1-0.1-0.9)-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24144384264945984, mae:0.3196282684803009, r_squared:0.8672102987766266
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20499178767204285, mae:0.2820907533168793, r_squared:0.8875698000192642
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1993202418088913, mae:0.2793770134449005, r_squared:0.8902834504842758
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2198452651500702, mae:0.2967729866504669, r_squared:0.8781849145889282
+
+------TSMixer-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2097528874874115, mae:0.2892119288444519, r_squared:0.884639747440815
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18944905698299408, mae:0.2730594277381897, r_squared:0.8960943967103958
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18384821712970734, mae:0.27348682284355164, r_squared:0.8988000825047493
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.21939855813980103, mae:0.3087187707424164, r_squared:0.8784324303269386
+
+------TSMixer(rev)-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17905214428901672, mae:0.2583122253417969, r_squared:0.9015245959162712
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1663699895143509, mae:0.2454666644334793, r_squared:0.9087523892521858
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.16388629376888275, mae:0.24791614711284637, r_squared:0.909788191318512
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1798458993434906, mae:0.263105571269989, r_squared:0.900348350405693
+
+------TSMixer(arev-type1-0.1-0.9)-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17513667047023773, mae:0.2549421787261963, r_squared:0.9036780372262001
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1651804894208908, mae:0.24514777958393097, r_squared:0.9094047844409943
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.16284994781017303, mae:0.24723735451698303, r_squared:0.910358652472496
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1794460117816925, mae:0.2639409899711609, r_squared:0.900569923222065
+
+------PatchTST-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.31483563780784607, mae:0.3958510458469391, r_squared:0.8268461674451828
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.30860835313796997, mae:0.3898566961288452, r_squared:0.8307400494813919
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3041350543498993, mae:0.3878054916858673, r_squared:0.8325877487659454
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.32790452241897583, mae:0.41007137298583984, r_squared:0.8183098584413528
+
+------PatchTST(rev)-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.22938792407512665, mae:0.33111393451690674, r_squared:0.8738408386707306
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.2231944501399994, mae:0.32975906133651733, r_squared:0.8775863274931908
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.2253604531288147, mae:0.3314504623413086, r_squared:0.8759495168924332
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.24611978232860565, mae:0.34790682792663574, r_squared:0.8636263459920883
+
+------PatchTST(arev-type1-0.1-0.9)-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.23396968841552734, mae:0.33828282356262207, r_squared:0.8713209480047226
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.22874894738197327, mae:0.33729949593544006, r_squared:0.8745398968458176
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.23348107933998108, mae:0.3394683599472046, r_squared:0.8714794963598251
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.24294230341911316, mae:0.3450070917606354, r_squared:0.865386962890625
+
+------SCINet-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2521549463272095, mae:0.3437007963657379, r_squared:0.8613193929195404
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2291601300239563, mae:0.31200113892555237, r_squared:0.8743143826723099
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.22749343514442444, mae:0.31491222977638245, r_squared:0.8747754096984863
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.27838781476020813, mae:0.3622696101665497, r_squared:0.8457468003034592
+
+------SCINet(rev)-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.21213214099407196, mae:0.30242183804512024, r_squared:0.8833312019705772
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.190005362033844, mae:0.2745683789253235, r_squared:0.8957892805337906
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18092700839042664, mae:0.2673504948616028, r_squared:0.9004080668091774
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20081868767738342, mae:0.2863723337650299, r_squared:0.8887274414300919
+
+------SCINet(arev-type1-0.1-0.9)-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20687949657440186, mae:0.2981163263320923, r_squared:0.8862200602889061
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19015240669250488, mae:0.27620261907577515, r_squared:0.8957086354494095
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1797359734773636, mae:0.26720207929611206, r_squared:0.9010636806488037
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2013261914253235, mae:0.2872215211391449, r_squared:0.8884462341666222
+
+-----Seed:256-----
+
+------Linear-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.29941171407699585, mae:0.39435693621635437, r_squared:0.8353290408849716
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24935172498226166, mae:0.33514443039894104, r_squared:0.8632400631904602
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24567130208015442, mae:0.333353191614151, r_squared:0.8647693395614624
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2923070192337036, mae:0.3719170093536377, r_squared:0.8380342423915863
+
+------Linear(rev)-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24256637692451477, mae:0.3173442482948303, r_squared:0.8665929287672043
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20502904057502747, mae:0.2796388268470764, r_squared:0.8875493705272675
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19870394468307495, mae:0.274884432554245, r_squared:0.890622690320015
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.22146984934806824, mae:0.29693979024887085, r_squared:0.8772847428917885
+
+------Linear(arev-type1-0.1-0.9)-Traffic-S------
+
+Linear_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.24172939360141754, mae:0.3204022943973541, r_squared:0.8670532554388046
+
+Linear_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20543397963047028, mae:0.28401294350624084, r_squared:0.8873272761702538
+
+Linear_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19868314266204834, mae:0.2779087424278259, r_squared:0.8906341418623924
+
+Linear_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.22065596282482147, mae:0.29760006070137024, r_squared:0.8777357116341591
+
+------TSMixer-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20814068615436554, mae:0.28815481066703796, r_squared:0.8855264335870743
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19774140417575836, mae:0.28161779046058655, r_squared:0.8915463611483574
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18411922454833984, mae:0.271558940410614, r_squared:0.8986508995294571
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.22399474680423737, mae:0.3099806308746338, r_squared:0.8758857101202011
+
+------TSMixer(rev)-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18056541681289673, mae:0.26097479462623596, r_squared:0.9006923213601112
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.16745811700820923, mae:0.24651817977428436, r_squared:0.9081555902957916
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.16324934363365173, mae:0.24587476253509521, r_squared:0.910138800740242
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.17970971763134003, mae:0.2624429166316986, r_squared:0.9004238024353981
+
+------TSMixer(arev-type1-0.1-0.9)-Traffic-S------
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_96_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1783493310213089, mae:0.25892576575279236, r_squared:0.9019111320376396
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_192_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1669035404920578, mae:0.2461988627910614, r_squared:0.9084597527980804
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_336_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1632157415151596, mae:0.24692827463150024, r_squared:0.9101573005318642
+
+TSMixer_Traffic_features_S_seqlen_96_predlen_720_dmodel_2048_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1794917732477188, mae:0.2628612518310547, r_squared:0.9005445688962936
+
+------PatchTST-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3298354744911194, mae:0.4006684720516205, r_squared:0.8185965269804001
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3102591335773468, mae:0.3919794261455536, r_squared:0.8298346698284149
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.30479758977890015, mae:0.38605982065200806, r_squared:0.8322230577468872
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.3253178298473358, mae:0.40406227111816406, r_squared:0.8197431266307831
+
+------PatchTST(rev)-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.23654042184352875, mae:0.3397403955459595, r_squared:0.8699070960283279
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.225178524851799, mae:0.3305048644542694, r_squared:0.8764981403946877
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.22886355221271515, mae:0.3364156484603882, r_squared:0.8740212172269821
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.2462240308523178, mae:0.3483649492263794, r_squared:0.8635685741901398
+
+------PatchTST(arev-type1-0.1-0.9)-Traffic-S------
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_96_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.24611537158489227, mae:0.35104066133499146, r_squared:0.8646410554647446
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_192_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.23340952396392822, mae:0.33985692262649536, r_squared:0.8719837516546249
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_336_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.23429331183433533, mae:0.34449949860572815, r_squared:0.8710323870182037
+
+PatchTST_Traffic_features_S_seqlen_96_predlen_720_dmodel_16_dff_128_elayers_2_dlayers_1_itr_0  
+mse:0.24460160732269287, mae:0.34627506136894226, r_squared:0.8644675612449646
+
+------SCINet-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2724999487400055, mae:0.36481308937072754, r_squared:0.850130021572113
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.2470591515302658, mae:0.33279135823249817, r_squared:0.8644974529743195
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.23451387882232666, mae:0.3259882926940918, r_squared:0.8709109872579575
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.29146453738212585, mae:0.377409428358078, r_squared:0.838501051068306
+
+------SCINet(rev)-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19215863943099976, mae:0.284606397151947, r_squared:0.8943162634968758
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18800297379493713, mae:0.273980975151062, r_squared:0.896887518465519
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18265478312969208, mae:0.2686407268047333, r_squared:0.8994570076465607
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20203469693660736, mae:0.2876186966896057, r_squared:0.8880536556243896
+
+------SCINet(arev-type1-0.1-0.9)-Traffic-S------
+
+SCINet_Traffic_features_S_seqlen_96_predlen_96_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.19437196850776672, mae:0.2869121730327606, r_squared:0.8930989727377892
+
+SCINet_Traffic_features_S_seqlen_96_predlen_192_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.1820049285888672, mae:0.2684652805328369, r_squared:0.9001772180199623
+
+SCINet_Traffic_features_S_seqlen_96_predlen_336_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.18014465272426605, mae:0.26827868819236755, r_squared:0.9008387178182602
+
+SCINet_Traffic_features_S_seqlen_96_predlen_720_dmodel_128_dff_512_elayers_2_dlayers_1_itr_0  
+mse:0.20033422112464905, mae:0.2868342101573944, r_squared:0.8889958783984184
